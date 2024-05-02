@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    margin: 20px;
+}
+
+nav {
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #333;
+    text-align: center;
+    width: 10%;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+h1 {
+    margin: 5px;
+}
+
+h6 {
+    color: rgba(75, 75, 75, 0.836);
+}
+
+header {
+    background-color: #ffffff;
+    padding: 1px;
+    text-align: left;
+    color: #000000;
+}
+
+.foto1 {
+    width: 50px;
+    position: absolute;
+    left: 700px;
+    top: 320px;
+}
+
+.foto2 {
+    display: flex;
+}
+
+.numero {
+    color: blue;
+    margin: 30px;
+}
+
+button {
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.but {
+    position: absolute;
+    left: 90%;
+    top: 9%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
